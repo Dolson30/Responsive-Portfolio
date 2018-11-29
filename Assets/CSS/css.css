@@ -1,0 +1,197 @@
+body{margin:0;
+    padding:0;  
+}
+
+#aboutMe {
+    text-align: center;
+    background-color: rgb(247, 238, 226);
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+    position:absolute;
+    top: 10%;
+    right: 25%;
+}
+
+#pageTag{
+    color:white;
+    background-color: teal;
+    position: absolute;
+    top: -16px;
+    left: 300px;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    vertical-align: center;
+    padding-top: 15px;
+
+}
+/* Sorry, I know it's gross */
+#pageTag:hover {
+    -webkit-animation:rainbow 1s infinite;
+    -ms-animation:rainbow 1s infinite;
+    -o-animation:rainbow 1s infinite;
+    animation:rainbow 1s infinite;
+    }
+    @-webkit-keyframes rainbow {
+    0% {color: #ff0000;}
+    10% {color: #ff8000;}
+    20% {color: #ffff00;}
+    30% {color: #80ff00;}
+    40% {color: #00ff00;}
+    50% {color: #00ff80;}
+    60% {color: #00ffff;}
+    70% {color: #0080ff;}
+    80% {color: #0000ff;}
+    90% {color: #8000ff;}
+    100% {color: #ff0080;}
+    }
+    @-ms-keyframes rainbow {
+    0% {color: #ff0000;}
+    10% {color: #ff8000;}
+    20% {color: #ffff00;}
+    30% {color: #80ff00;}
+    40% {color: #00ff00;}
+    50% {color: #00ff80;}
+    60% {color: #00ffff;}
+    70% {color: #0080ff;}
+    80% {color: #0000ff;}
+    90% {color: #8000ff;}
+    100% {color: #ff0080;}
+    }
+    @-o-keyframes rainbow {
+    0% {color: #ff0000;}
+    10% {color: #ff8000;}
+    20% {color: #ffff00;}
+    30% {color: #80ff00;}
+    40% {color: #00ff00;}
+    50% {color: #00ff80;}
+    60% {color: #00ffff;}
+    70% {color: #0080ff;}
+    80% {color: #0000ff;}
+    90% {color: #8000ff;}
+    100% {color: #ff0080;}
+    }
+    @keyframes rainbow {
+    0% {color: #ff0000;}
+    10% {color: #ff8000;}
+    20% {color: #ffff00;}
+    30% {color: #80ff00;}
+    40% {color: #00ff00;}
+    50% {color: #00ff80;}
+    60% {color: #00ffff;}
+    70% {color: #0080ff;}
+    80% {color: #0000ff;}
+    90% {color: #8000ff;}
+    100% {color: #ff0080;}
+    }
+
+hr{
+    color:grey;
+    height:1px;
+    background-color:grey;
+
+}
+
+.topBar a{
+    padding:15px 15px;
+    float: right;
+    text-decoration: none;
+    background-color: none;
+    color:black;
+
+}
+
+.topBar a:hover{background-color: black;
+color:white;}
+
+.topBar{
+    overflow: hidden;
+    background-color: white;
+}
+
+.botBar{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:100px;
+    background-color: grey;
+}
+
+.botBar2{
+    position: absolute;
+    bottom:100;
+    width: 100%;
+    height:10px;
+    background-color: teal;
+}
+
+#submit{
+    background-color:teal;  
+    position: relative;
+    right:645;
+    top:3;
+    height: 40px;
+    width: 65px;
+
+}
+
+.portBox{
+    text-align: center;
+    background-color: rgb(247, 238, 226);
+    margin: auto;
+    width: 50%;
+    padding: 5px;
+    position:absolute;
+    top: 10%;
+    right: 25%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.walrus, .jelly, .bear, .deer, .space{
+    padding: 5px;
+}
+
+.caption1{
+    position:absolute; top:138; left:200; font-size:24px; font-family:"vedana"; background:teal;
+padding:10px 20px; width: 200% px; text-align:center;
+opacity: .5;
+}
+.caption1:hover{
+    opacity:1.0;
+}
+.caption2{
+    position:absolute; top:138; right:210; font-size:24px; font-family:"vedana"; background:teal;
+padding:10px 20px; width: 200% px; text-align:center;
+opacity: .5;
+}
+.caption2:hover{
+    opacity:1.0;
+}
+.caption3{
+    position:absolute; bottom:-10; left:100; font-size:24px; font-family:"vedana"; background:teal;
+padding:10px 20px; width: 200% px; text-align:center;
+opacity: .5;
+}
+.caption3:hover{
+    opacity:1.0;
+}
+.caption4{
+    position:absolute; bottom:-10; left:320; font-size:24px; font-family:"vedana"; background:teal;
+padding:10px 20px; width: 200% px; text-align:center;
+opacity: .5;
+}
+.caption4:hover{
+    opacity:1.0;
+}
+.caption5{
+    position:absolute; bottom:-10; right:100; font-size:24px; font-family:"vedana"; background:teal;
+padding:10px 20px; width: 200% px; text-align:center;
+opacity: .5;
+}
+.caption5:hover{
+    opacity:1.0;
+}
